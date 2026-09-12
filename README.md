@@ -1,110 +1,200 @@
-#  Amazon Sales Data Analysis
---- 
+📌 Project Overview
 
-This project takes **raw, messy sales data** and transforms it into a **fully interactive Power BI dashboard** for **in-depth business insights** using:  
+This project focuses on analyzing sales data to identify important business trends and generate meaningful insights using Python, Pandas, NumPy, Matplotlib, Seaborn, Excel, and Power BI.
 
-**Excel** – Data Cleaning & Preprocessing  
-**SQL** – Querying & Structuring Data  
-**Python** – Automating Data Processing  
-**Power BI** – Creating an Interactive Dashboard  
+The project includes data cleaning, exploratory data analysis (EDA), visualization, and an interactive Power BI dashboard to understand sales performance, profitability, product categories, customers, and regional trends.
 
----
+The goal of this project is to transform raw sales data into clear and actionable business insights that can support data-driven decision-making.
 
-##  Project Overview  
+🎯 Objectives
+Clean and prepare raw sales data for analysis
+Perform Exploratory Data Analysis (EDA)
+Analyze sales and profit trends
+Identify top-performing products and categories
+Analyze regional and customer-level performance
+Understand relationships between sales, profit, quantity, and discounts
+Create meaningful charts and visualizations
+Build an interactive Power BI dashboard
+Present business insights in an easy-to-understand format
+🛠️ Tools & Technologies
+Python
+Pandas – Data cleaning and manipulation
+NumPy – Numerical analysis
+Matplotlib – Data visualization
+Seaborn – Statistical visualization
+Microsoft Excel – Data source and preprocessing
+Power BI – Interactive dashboard and business reporting
+Jupyter Notebook – Python-based analysis
+📂 Dataset
 
-This project analyzes **Amazon’s sales performance**, providing valuable insights into **revenue trends, customer behavior, top-selling products, and regional sales distribution**.  
+The project uses sales-related datasets containing information such as:
 
-With **interactive dashboards**, Amazon sellers and analysts can **visualize key metrics, track revenue growth, identify trends, and optimize business strategies**.  
+Orders
+Products
+Categories and sub-categories
+Customers
+Regions
+Sales
+Quantity
+Discounts
+Profit
+Order dates
+Shipping information
 
----
+The repository contains the dataset files used for the analysis along with the Python notebook and Power BI dashboard.
 
-##  Tech Stack Used  
+🔍 Data Analysis Process
+1. Data Loading
 
- **Microsoft Excel** – Data Cleaning & Preprocessing  
- **SQL (MySQL/PostgreSQL)** – Querying & Data Aggregation  
- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – Data Transformation & Automation  
- **Power BI** – Visualization & Dashboarding  
+The dataset was loaded into Python using Pandas and examined to understand its structure, columns, data types, and overall quality.
 
----
+2. Data Cleaning
 
-## Key Features  
+The data was checked for:
 
- **Transforms raw sales data into structured insights**  
- **SQL-powered advanced data analysis**  
- **Python automation for real-time updates**  
- **Interactive Power BI dashboard for business decisions**  
- **Revenue tracking, sales trends & profit analysis**  
- **Customer segmentation & purchase behavior insights**  
+Missing values
+Duplicate records
+Incorrect data types
+Inconsistent values
+Unnecessary columns
 
----
+The data was then prepared for further analysis.
 
-##  Dataset  
+3. Exploratory Data Analysis
 
-The dataset includes:  
+EDA was performed to understand:
 
- **Product Categories** – Electronics, Fashion, Home Essentials, Books, etc.  
- **Sales Transactions** – Order details, revenue, profit, discount rates  
- **Customer Demographics** – Location, purchase history, age group, gender  
- **Time-Series Data** – Seasonal demand and sales trends  
+Sales distribution
+Profit distribution
+Product performance
+Category performance
+Regional performance
+Customer behavior
+Monthly and yearly sales trends
+Discount and profitability relationships
+4. Data Visualization
 
----
+Different visualizations were created using Matplotlib and Seaborn, including:
 
-##  Power BI Dashboard Insights  
+Bar charts
+Line charts
+Pie charts
+Histograms
+Box plots
+Scatter plots
+Correlation analysis
 
- **Total Revenue, Profit, and Sales Trends** 
- **Top-Selling Products & Categories Analysis**   
- **Customer Demographics & Buying Behavior**  
- **Time-Based Sales Trends & Forecasting**  
- **Profit Margin by Region, Category & Product** 
- **Interactive Filters & Drilldowns for Detailed Analysis**  
+These visualizations helped identify patterns and trends in the dataset.
 
----
+5. Power BI Dashboard
 
-##  Tools & Technologies Used  
+An interactive Power BI dashboard was created to present the major findings in a business-friendly format.
 
- **Excel (Data Cleaning & Preprocessing)** – Handling missing values, duplicates, formatting  
- **SQL (MySQL/PostgreSQL)** – Querying, Joins, Aggregations, Data Structuring  
- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – Automating data analysis & visualization  
- **Power BI (Dashboard Creation)** – Visualizing data with interactive charts & reports  
+The dashboard allows users to explore sales performance using different categories, regions, products, and time periods.
 
----
+📈 Key Analysis Areas
+Sales Performance
 
-##  Steps Followed  
+Analyzed overall sales and identified sales trends over time.
 
-1️ **Data Extraction:** Collected **raw Amazon sales data** from transaction records  
-2️ **Data Cleaning (Excel & Python):** Removed **duplicates, missing values, and inconsistencies**  
-3️ **SQL Querying:** Used **advanced queries to structure and analyze the data**  
-4️ **Python Data Processing:** Automated **data transformation for better insights**  
-5️ **Power BI Dashboard Creation:** Designed **interactive reports for real-time analysis**  
+Profitability
 
----
+Compared sales and profit to understand which products, categories, and regions contribute most to profitability.
 
-##  Business Insights Derived  
+Product Analysis
 
- **Top-Selling Products & Revenue Growth:** Identifying **best-performing product categories** 
- **Seasonal Sales Trends:** Understanding **high & low sales periods** 
- **Customer Segmentation:** Analyzing **age, location, and spending patterns**   
- **Profitability Analysis:** Evaluating **revenue & profit margins by region**   
- **Operational Bottlenecks:** Identifying **inventory gaps & order delays** 
+Identified high-performing and low-performing products and categories.
 
----
+Regional Analysis
 
-##  Future Enhancements  
+Compared sales and profit across different geographical regions.
 
- **Automate SQL & Python Pipelines** for **real-time updates**   
- **Integrate AI for Demand Forecasting & Customer Insights**   
- **Enhance Dashboard UI/UX with Advanced Visualizations**  
- **Include Competitive Market Analysis** for better decision-making   
+Customer Analysis
 
----
+Examined customer-level purchasing patterns and sales contribution.
 
-## Why This Project Matters?  
+Time-Based Analysis
 
- Helps Amazon sellers & businesses **analyze sales trends and optimize pricing** 
- Provides **real-time data visualization for better decision-making** 
- Assists in **identifying top-performing & low-performing products**   
- Supports **data-driven marketing strategies and customer engagement**   
-----
- **Fork this project, contribute, or collaborate! Let's build more data-driven insights **  
+Analyzed monthly and yearly trends to identify changes in sales performance.
 
----
+Discount Analysis
+
+Studied the relationship between discounts, sales, and profitability.
+
+📊 Power BI Dashboard
+
+The Power BI dashboard provides an interactive view of the analyzed sales data.
+
+Dashboard Features
+Sales and profit KPIs
+Sales trend analysis
+Profit analysis
+Product/category performance
+Regional analysis
+Customer analysis
+Interactive filters and slicers
+Drill-down analysis
+
+The dashboard is designed to make business insights easier to understand and explore.
+
+💡 Business Insights
+
+The analysis helps answer questions such as:
+
+Which products generate the highest sales?
+Which categories are most profitable?
+Which regions perform best?
+How do sales change over time?
+Which products have low profitability?
+How do discounts affect profit?
+Which customers contribute significantly to sales?
+Where are opportunities for improving business performance?
+📁 Project Structure
+Amazon_Sales_Data_Analysis/
+│
+├── Amazon_Sales.ipynb
+├── Amazon Sales Dashboard.pbix
+├── global_superstore.xlsx
+├── amazon.csv
+└── README.md
+🚀 Project Workflow
+Raw Sales Data
+      ↓
+Data Cleaning
+      ↓
+Exploratory Data Analysis
+      ↓
+Data Visualization
+      ↓
+Business Insights
+      ↓
+Power BI Dashboard
+📚 What I Learned
+
+Through this project, I gained practical experience in:
+
+Data cleaning and preprocessing
+Exploratory Data Analysis
+Python for data analytics
+Pandas and NumPy
+Data visualization using Matplotlib and Seaborn
+Finding patterns and trends in datasets
+Building interactive Power BI dashboards
+Converting data into meaningful business insights
+Presenting analytical findings clearly
+🔮 Future Improvements
+Add SQL-based data analysis
+Build an automated ETL pipeline
+Connect Power BI directly to a database
+Add sales forecasting
+Apply machine learning for customer segmentation
+Develop predictive models for demand forecasting
+Automate dashboard data refresh
+👨‍💻 Author
+
+Kanishka Shashi
+
+B.Tech – Computer Science Engineering
+Specialization in Artificial Intelligence & Machine Learning
+
+⭐ If you find this project useful, feel free to explore the repository and share your feedback.
