@@ -1,4 +1,4 @@
-📌 Project Overview
+ Project Overview
 
 This project focuses on analyzing sales data to identify important business trends and generate meaningful insights using Python, Pandas, NumPy, Matplotlib, Seaborn, Excel, and Power BI.
 
@@ -6,7 +6,7 @@ The project includes data cleaning, exploratory data analysis (EDA), visualizati
 
 The goal of this project is to transform raw sales data into clear and actionable business insights that can support data-driven decision-making.
 
-🎯 Objectives
+ Objectives
 Clean and prepare raw sales data for analysis
 Perform Exploratory Data Analysis (EDA)
 Analyze sales and profit trends
@@ -16,7 +16,7 @@ Understand relationships between sales, profit, quantity, and discounts
 Create meaningful charts and visualizations
 Build an interactive Power BI dashboard
 Present business insights in an easy-to-understand format
-🛠️ Tools & Technologies
+ Tools & Technologies
 Python
 Pandas – Data cleaning and manipulation
 NumPy – Numerical analysis
@@ -25,7 +25,7 @@ Seaborn – Statistical visualization
 Microsoft Excel – Data source and preprocessing
 Power BI – Interactive dashboard and business reporting
 Jupyter Notebook – Python-based analysis
-📂 Dataset
+ Dataset
 
 The project uses sales-related datasets containing information such as:
 
@@ -43,7 +43,7 @@ Shipping information
 
 The repository contains the dataset files used for the analysis along with the Python notebook and Power BI dashboard.
 
-🔍 Data Analysis Process
+ Data Analysis Process
 1. Data Loading
 
 The dataset was loaded into Python using Pandas and examined to understand its structure, columns, data types, and overall quality.
@@ -92,7 +92,7 @@ An interactive Power BI dashboard was created to present the major findings in a
 
 The dashboard allows users to explore sales performance using different categories, regions, products, and time periods.
 
-📈 Key Analysis Areas
+ Key Analysis Areas
 Sales Performance
 
 Analyzed overall sales and identified sales trends over time.
@@ -121,7 +121,7 @@ Discount Analysis
 
 Studied the relationship between discounts, sales, and profitability.
 
-📊 Power BI Dashboard
+ Power BI Dashboard
 
 The Power BI dashboard provides an interactive view of the analyzed sales data.
 
@@ -137,7 +137,7 @@ Drill-down analysis
 
 The dashboard is designed to make business insights easier to understand and explore.
 
-💡 Business Insights
+ Business Insights
 
 The analysis helps answer questions such as:
 
@@ -149,7 +149,7 @@ Which products have low profitability?
 How do discounts affect profit?
 Which customers contribute significantly to sales?
 Where are opportunities for improving business performance?
-📁 Project Structure
+ Project Structure
 Amazon_Sales_Data_Analysis/
 │
 ├── Amazon_Sales.ipynb
@@ -157,7 +157,7 @@ Amazon_Sales_Data_Analysis/
 ├── global_superstore.xlsx
 ├── amazon.csv
 └── README.md
-🚀 Project Workflow
+ Project Workflow
 Raw Sales Data
       ↓
 Data Cleaning
@@ -169,7 +169,7 @@ Data Visualization
 Business Insights
       ↓
 Power BI Dashboard
-📚 What I Learned
+ What I Learned
 
 Through this project, I gained practical experience in:
 
@@ -182,7 +182,7 @@ Finding patterns and trends in datasets
 Building interactive Power BI dashboards
 Converting data into meaningful business insights
 Presenting analytical findings clearly
-🔮 Future Improvements
+ Future Improvements
 Add SQL-based data analysis
 Build an automated ETL pipeline
 Connect Power BI directly to a database
@@ -190,7 +190,7 @@ Add sales forecasting
 Apply machine learning for customer segmentation
 Develop predictive models for demand forecasting
 Automate dashboard data refresh
-👨‍💻 Author
+ Author
 
 Kanishka Shashi
 
